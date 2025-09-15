@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="icon" type=" image/jpg" href="images/preview.jpg">
+    <title>OG</title>
+  </head>
+  <body>
+     <p>This is a <i>normal</i> text</p>
+     <p>This is a <u>normal</u> text</p>
+     <p>This is a <del>normal</del> text</p>
+     <p>This is a <b>normal</b> text</p>
+     <p>This is a <sub>normal</sub> text</p>
+     <p>This is a <sup>normal</sup> text</p>
+     <p>This is a normal text</p>
+     <p>This is a <mark>normal </mark>text</p>
+     <p>This is a <big>normal</big> text</p>
+     <p>This is a <snmall>normal</snmall> text</p>
+  </body>
+</html>
