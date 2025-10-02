@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="icon" href="images/dog2.webp" type="images/jpg">
+    <title>Shanmukha</title>
+  </head>
+  <body>
+    <div style="text-align:center;">
+      <a href="https://www.google.com/search?q=emacet+exams&rlz=1C1RXQR_en-GBIN1150IN1150&oq=emacet+exams&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMgkIAhAAGA0YgAQyCQgDEAAYDRiABDIJCAQQABgNGIAEMgkIBRAAGA0YgAQyCQgGEAAYDRiABDIJCAcQABgNGIAEMgkICBAAGA0YgAQyCQgJEAAYDRiABNIBCDU4MzJqMGo3qAIIsAIB8QU9YfqTbvlQBvEFPWH6k275UAY&sourceid=chrome&ie=UTF-8"
+      target="_blank">
+        <img src="images/AP emacet.jpg" width="250" height="150">
+      </a>
+  
+    <h1>PLEASE FILL THE FORM </h1>
+    <h4>CAS FORM:</h4>
+    <h6>HELLO STUDENTS PLEASE  FILL THE FORM FOR YOUR EMACET EXAMNATION </h6>
+    <HR>
+    <form action="index.php" method="post">
+      
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter name" minlength="5" maxlength="140" required><br>
+
+      <label for="password">password:</label>
+      <input type="password" id="password" placeholder="enter password" minlength="8" maxlength="16"required><br>
+
+      <label for="email">email:</label>
+      <input type="email" id="email" placeholder="enter email" required><br>
+      
+      <label for="phone">phone number:</label>
+      <input type="tel" id="phone" placeholder="enter phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" ><br>
+
+      <label for="gender">Gender:</label>
+        <label value="Male">Male </label>
+        <input type="radio" id="Male" value="Male" name="title">
+        <label value="Female">Female</label>
+        <input type="radio" id="Female" value="Female" name="title">
+        <label value="Other">Other</label>
+        <input type="radio" id="Other" value="Other" name="title"><br>
+
+
+      <label for="dbdy">date of birth:</label>
+      <input type="date" id="dbdy" required><br>
+
+      <label for="quantity">quantity</label>
+      <input type="number" id="quantity" min="1" max="100" required><br>
+       
+      <label for=title>title:</label>
+      <label for="Mr">Mr.</label>
+      <input type="radio" id="mr" value="Mr" name="title">
+      <label for="Ms">Ms.</label>
+      <input type="radio" id="ms" value="Ms" name="title">
+      <label for="Phd">phd.</label>
+      <input type="radio" id="phd" value="Phd" name="title"><br>
+
+      <label for="payment">payment</label>
+      <select id="payment">
+        <option value="visa">Visacard</option>
+      <option value="mastercard">Mastecard</option>
+      <option value="gift card">Giftcard</option>
+      </select><br>
+      <br>
+      <label for="comment">comments</label>
+      <textarea id="comment" rows="2" col="23"></textarea><br>
+      <br>
+      <label for="file">File</label>
+      <input type="file" id="file"><br>
+      <br>
+      <input type="reset">
+      <input type="submit">
+      <hr>
+      <hr>
+     
+    </form>
+
+    </div>
+  </div>
+  </body>
+</html>
