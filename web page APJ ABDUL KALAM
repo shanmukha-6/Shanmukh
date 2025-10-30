@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <title>shanmukha</title>
+    <link rel="icon" href="images/dog2.webp" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+ 
+    <header> Tribute to A.P.J. Abdul Kalam</header>
+    <br>
+    <div>
+      <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="blank">
+    <img src="images/abdul.jpeg">
+    </a>
+    <a href="https://timesofindia.indiatimes.com/city/kolkata/kalam-was-the-only-president-to-fly-supersonic/articleshow/48243943.cms">
+    <h4>About A.P.J. Abdul kalam</h4>
+    </a>
+    <p> A.P.J Abdul kalam, the "Missile Man of India." was born on October 15, 1931, in Ramaeswaram, TamilNadu.
+      He served as the 11th President of india and was a reowned scientist, known for his work
+      in india's space and missile programs.
+    </p>
+    </div>
+   
+    <div>
+      <h3>Achievements:</h3>
+      <ul>
+        <li>developed india's first satelite launch vechile(SLV-III)</li>
+        <li>Led india's successful nuclear tests in 1998</li>
+        <li>wrote books like "Wings of Fire" and "india 2020"</li>
+        <li>Recived the Bharat Ratnas, India's highest civilian award</li>
+      </ul>
+    </div>
+    <header>
+      Created by Mahima Bhardwaj.All rights reserved.
+    </header>
+ 
+    </body>
+  </body>
+</html>
+##CSS
+
+body {
+  border:5px solid hsl(30, 3%, 15%);
+  box-shadow:3px 3px 5px rgb(123, 113, 113);
+  margin-top:20px;
+}
+header {
+  background-color:rgb(70, 70, 233);
+  text-align:center;
+  font-size:20px;
+  font-weight:bold arial;
+  color:white;
+  padding-top:13px;
+  padding-bottom:13px;
+}
+div {
+  box-shadow:3px 3px 5px hsl(187, 95%, 30%);
+  width:1450px;
+  margin-left:37px;
+}
+p {
+  font-size:17px;
+  margin-left:10px;
+}
+h3 {
+  margin-left:10px;
+  font-size:20px;
+  font-weight:bold;
+}
+ul {
+  font-size:17px;
+  font-weight:arial;
+}
